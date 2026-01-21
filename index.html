@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">Coeur Du Ciel (CDC) - Marketing Agency</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js?v=2"></script>
+</head>
+<body>
+  <div data-shared-header></div>
+
+  <main>
+    <!-- Text content uses data-i18n keys and translations are defined in script.js (en, fr, zh) -->
+    <!-- Home / Hero -->
+    <section class="section hero-section">
+      <div id="home" class="container hero-card scroll-target">
+        <div class="hero-text">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Marketing Services Agency</p>
+          <h1 data-i18n="hero.title">Empowering Brands Through Creative Marketing</h1>
+          <p class="subheadline" data-i18n="hero.subtitle">
+            Digital marketing and branding solutions that drive growth, engagement, and visibility.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn primary" data-i18n="hero.ctaPrimary">Get Started</a>
+            <a href="#contact" class="btn ghost" data-i18n="hero.ctaSecondary">Contact Us</a>
+          </div>
+
+          <div class="hero-services">
+            <h2 data-i18n="hero.servicesTitle">What We Do</h2>
+            <div class="pill-row">
+              <span class="pill" data-i18n="hero.pillDigital">Digital Marketing</span>
+              <span class="pill" data-i18n="hero.pillBranding">Branding &amp; Design</span>
+              <span class="pill" data-i18n="hero.pillStrategy">Strategy &amp; Consulting</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-media">
+          <figure class="hero-image-wrapper">
+            <img src="image/marketing.jpg" alt="Marketing campaign" class="hero-image" />
+            <figcaption class="hero-image-caption" data-i18n="hero.imageLabel">Featured Campaign</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="container hero-bottom">
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-i18n="hero.statCampaignsNumber">+120</span>
+            <span class="stat-label" data-i18n="hero.statCampaignsLabel">Campaigns Launched</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-i18n="hero.statBrandsNumber">+40</span>
+            <span class="stat-label" data-i18n="hero.statBrandsLabel">Brands Supported</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-i18n="hero.statRoiNumber">+200%</span>
+            <span class="stat-label" data-i18n="hero.statRoiLabel">Average ROI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section neutral-section">
+      <div id="about" class="container split-layout scroll-target">
+        <div>
+          <h2 data-i18n="about.title">Who We Are</h2>
+          <p data-i18n="about.body">
+            A team of marketing professionals dedicated to helping businesses grow through innovative strategies and creative design.
+            With expertise in digital marketing and branding, we deliver measurable results and lasting brand impact.
+          </p>
+        </div>
+        <div class="highlights">
+          <h3 data-i18n="about.highlightsTitle">Why Clients Choose CDC</h3>
+          <ul>
+            <li data-i18n="about.highlight1">Experienced marketing strategists and designers</li>
+            <li data-i18n="about.highlight2">Data-driven approach focused on measurable outcomes</li>
+            <li data-i18n="about.highlight3">Proven success across a wide range of industries</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section">
+      <div id="services" class="container scroll-target">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="services.eyebrow">Services</p>
+          <h2 data-i18n="services.title">What We Offer</h2>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-column">
+            <h3 data-i18n="services.digitalTitle">Digital Marketing</h3>
+            <ul>
+              <li data-i18n="services.digital1">Social Media Management</li>
+              <li data-i18n="services.digital2">SEO Optimization</li>
+              <li data-i18n="services.digital3">PPC Campaigns</li>
+              <li data-i18n="services.digital4">Email Marketing</li>
+              <li data-i18n="services.digital5">Content Creation</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3 data-i18n="services.brandTitle">Branding &amp; Design</h3>
+            <ul>
+              <li data-i18n="services.brand1">Logo Design</li>
+              <li data-i18n="services.brand2">Brand Strategy</li>
+              <li data-i18n="services.brand3">Visual Identity</li>
+              <li data-i18n="services.brand4">Marketing Collateral</li>
+              <li data-i18n="services.brand5">Rebranding</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-cta">
+          <a href="#contact" class="btn primary" data-i18n="services.cta">Explore Our Services</a>
+          <a href="apps.html" class="btn ghost" data-i18n="services.appsCta">View Apps &amp; Tools</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans & Pricing (simple text, non-interactive for now) -->
+    <section class="section neutral-section">
+      <div id="plans" class="container scroll-target">
+        <div class="section-heading">
+          <p class="eyebrow">Plans &amp; Pricing</p>
+          <h2>Choose how you use NameCard</h2>
+          <p>
+            Start with the free personal NameCard to generate a QR code that saves directly to your contacts,
+            or upgrade to a business account to manage staff cards and view scan statistics.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-column">
+            <h3>Free Personal</h3>
+            <ul>
+              <li>Create unlimited QR NameCards.</li>
+              <li>Contact vCard saved directly to the phone.</li>
+              <li>No login required, no data stored on our servers.</li>
+            </ul>
+          </div>
+          <div class="service-column">
+            <h3>Business (B2B)</h3>
+            <ul>
+              <li>Companies create NameCards for staff.</li>
+              <li>Scan history and basic analytics.</li>
+              <li>Role-based access (admin, manager, employee).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-cta">
+          <a href="#contact" class="btn ghost">Talk about a plan</a>
+          <a href="/login/" class="btn primary">Business login</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section neutral-section">
+      <div id="portfolio" class="container scroll-target">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="portfolio.eyebrow">Digital Products</p>
+          <h2 data-i18n="portfolio.title">Our Apps &amp; Experiences</h2>
+          <p data-i18n="portfolio.body">
+            A selection of CDC's own digital tools, designed to make communication, branding and project follow-up easier for small businesses, freelancers and creators.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <h3 data-i18n="portfolio.card1Title">NameCard – Digital Business Card</h3>
+            <p data-i18n="portfolio.card1Body">
+              A fully digital business card that lives behind a QR code or short link. Centralise your contact details, social profiles and key links in one place, then update everything without reprinting any physical cards.
+            </p>
+            <span class="tag" data-i18n="portfolio.card1Tag">Client Experience</span>
+          </article>
+          <article class="portfolio-card">
+            <h3 data-i18n="portfolio.card2Title">Befitting – Smart Fitting Experience</h3>
+            <p data-i18n="portfolio.card2Body">
+              Give your customers a virtual fitting room in their pocket. By scanning the QR code on each garment, Befitting compares the item with their saved body profile and instantly suggests the most suitable size.
+            </p>
+            <span class="tag" data-i18n="portfolio.card2Tag">Size Recommendation</span>
+          </article>
+          <article class="portfolio-card">
+            <h3 data-i18n="portfolio.card3Title">TaskTicket – Light Project Tracker</h3>
+            <p data-i18n="portfolio.card3Body">
+              A simple ticket view for following marketing and design requests. Group tasks by status, keep briefs and comments attached to each item, and maintain a clear overview of what is in progress or completed.
+            </p>
+            <span class="tag" data-i18n="portfolio.card3Tag">Workflow</span>
+          </article>
+          <article class="portfolio-card">
+            <h3 data-i18n="portfolio.card4Title">Web Creator – Newsletter &amp; Page Builder</h3>
+            <p data-i18n="portfolio.card4Body">
+              A visual editor for building newsletters and simple presentation pages with a fixed header and footer. Add images, articles, calls-to-action and links, then export clean HTML or PDF ready to send or publish.
+            </p>
+            <span class="tag" data-i18n="portfolio.card4Tag">Content Tool</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section neutral-section">
+      <div id="contact" class="container contact-layout scroll-target">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+            <h2 data-i18n="contact.title">Let's Work Together</h2>
+          </div>
+          <p data-i18n="contact.body">
+            Ready to launch your next campaign or reimagine your brand? Share a few details about your project and our team will get back to you with tailored recommendations.
+          </p>
+
+          <div class="contact-info">
+            <p><strong data-i18n="contact.emailLabel">Email</strong><br /><a href="mailto:laiwah76@gmail.com">laiwah76@gmail.com</a></p>
+            <p><strong data-i18n="contact.phoneLabel">Phone</strong><br /><a href="tel:+33612739493">+33 6 12 73 94 93</a></p>
+            <p><strong data-i18n="contact.addressLabel">Address</strong><br /><span data-i18n="contact.addressValue">2 Rue des Anglais, Massy 91300</span></p>
+
+            <div class="social-links">
+              <span data-i18n="contact.socialLabel">Follow CDC</span>
+              <div class="social-icons">
+                <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+                <a href="#" aria-label="Instagram" class="social-icon">ig</a>
+                <a href="#" aria-label="Facebook" class="social-icon">f</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" data-i18n="form.nameLabel">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="form.emailLabel">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group full">
+              <label for="company" data-i18n="form.companyLabel">Company</label>
+              <input type="text" id="company" name="company" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group full">
+              <label for="message" data-i18n="form.messageLabel">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn primary full" data-i18n="form.submit">Send Message</button>
+          <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div data-shared-footer></div>
+</body>
+</html>
